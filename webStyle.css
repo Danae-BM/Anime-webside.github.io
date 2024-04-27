@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+body{
+    font-family: "Dela Gothic One", sans-serif;
+    background: linear-gradient(-45deg, #EAD8F2, #7EA5D9);
+    color: #7EA5D9;
+}
+.container{
+ max-width: 1200px;
+ margin: 0 auto;
+}
+header{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-anime-woman-cartoon-scene_23-2151035256.jpg?t=st=1714136200~exp=1714139800~hmac=3b7dfe7383c35c3bca6e2baf3a7a8ce133f22a56e048b2ac1ee12c6fb9cc37d4&w=1060);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar{
+    position: relative;
+    display: flex;
+}

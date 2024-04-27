@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+ <link rel="stylesheet" href="StyleInicio.css">
+</head>
+  <body>
+    <div class="container">
+        <div class="singin-singup">
+            <form action="" class="singin-form">
+                <h2 class="title"> Sing in </h2>
+                <div class="input-field">
+                    <i class="fa-user"></i>
+                    <input type="text" placeholder="Username">
+                    <div class="input-field">
+                        <i class="fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="Login" class="btn">
+            </form>
+            <form action="" class="singup-form">
+                <h2 class="title"> Sing up </h2>
+                <div class="input-field">
+                    <i class="fa-user"></i>
+                    <input type="text" placeholder="Username">
+                    <div class="input-field">
+                        <i class="fa-lock"></i>
+                        <input type="password" placeholder="Password">
+                </div>
+                <input type="submit" value="Sing up" class="btn">
+            </form>
+        </div>
+        <div class="panels-contairner"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+<div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
